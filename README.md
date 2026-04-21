@@ -1,4 +1,4 @@
-# 🌿 Weed Detection Edge Dashboard
+#  Weed Detection Edge Dashboard
 
 A Streamlit dashboard for an edge-based weed detection system running on an NVIDIA Jetson
 reComputer with IMU-assisted frame filtering.
@@ -12,14 +12,14 @@ reComputer with IMU-assisted frame filtering.
 
 | Page | Purpose |
 |---|---|
-| 🏠 **Home** | Project overview, KPI strip, objective status |
-| 📊 **Model Benchmarking** | Interactive comparison of 21 YOLO variants (v5 → YOLO26) |
-| 🎯 **Selected Model** | YOLOv8n per-class AP, confusion matrix, sample support |
-| ⚡ **Jetson Deployment** | PyTorch vs TensorRT FP16 — real measured 49 FPS on edge |
-| 📹 **Session Replay** | Scrub through a scouting session: IMU, detections, FPS in sync |
-| 🧭 **IMU Analysis** | Tests the core hypothesis — does stability filtering improve confidence? |
+|  **Home** | Project overview, KPI strip, objective status |
+|  **Model Benchmarking** | Interactive comparison of 21 YOLO variants (v5 → YOLO26) |
+|  **Selected Model** | YOLOv8n per-class AP, confusion matrix, sample support |
+|  **Jetson Deployment** | PyTorch vs TensorRT FP16 — real measured 49 FPS on edge |
+|  **Session Replay** | Scrub through a scouting session: IMU, detections, FPS in sync |
+|  **IMU Analysis** | Tests the core hypothesis — does stability filtering improve confidence? |
 
-## 🖼️ Data sources
+##  Data sources
 
 - **Real data** — 21-model benchmark (Google Colab A100), YOLOv8n per-class metrics,
   Jetson PyTorch vs TensorRT FPS measurements.
@@ -29,11 +29,11 @@ reComputer with IMU-assisted frame filtering.
 
 ---
 
-## 🚀 Run locally
+##  Run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/weed-dashboard.git
-cd weed-dashboard
+git clone https://github.com/Sourav9348/Weed-Dashboard.git
+cd Weed-Dashboard
 
 pip install -r requirements.txt
 streamlit run streamlit_app.py
@@ -41,7 +41,7 @@ streamlit run streamlit_app.py
 
 Dashboard opens at `http://localhost:8501`.
 
-## ☁️ Deploy on Streamlit Community Cloud
+##  Deploy on Streamlit Community Cloud
 
 1. Push this repo to GitHub (public or private with access granted).
 2. Go to **[share.streamlit.io](https://share.streamlit.io)** and sign in with GitHub.
@@ -49,7 +49,7 @@ Dashboard opens at `http://localhost:8501`.
 
 Deploys in ~90 seconds. Free tier handles this dashboard comfortably.
 
-## 📁 Project structure
+##  Project structure
 
 ```
 weed-dashboard/
@@ -82,11 +82,6 @@ python generate_sim_data.py
 
 Uses `np.random.seed(42)` so output is reproducible.
 
-## 📄 Related project artifacts
-
-- [Project proposal (PDF)](./docs/MohapatraS_ASM591_ProjectProposal.pdf)
-- Weekly progress reports 1 & 2
-- Jetson TensorRT deployment scripts (in parent project repo)
 
 ## 📬 License & contact
 
