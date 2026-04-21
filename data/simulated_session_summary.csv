@@ -1,0 +1,4 @@
+session_id,duration_s,total_frames,total_detections,avg_conf_stable,avg_conf_unstable,mean_fps,mean_stability,cocklebur,foxtail,redroot_pigweed,giant_ragweed
+SESSION_001_NorthField,89.967,2700,1792,0.7625,0.7368,49.16,0.8525,501,463,521,307
+SESSION_002_SouthPlot,119.967,3600,2415,0.7609,0.7318,49.24,0.8697,699,594,657,465
+SESSION_003_Greenhouse,74.967,2250,1513,0.7585,0.7286,49.09,0.8457,431,341,451,290

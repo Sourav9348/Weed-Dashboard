@@ -1,0 +1,5 @@
+class,AP_0_5,correct_pct,train_count,val_count,test_count
+Cocklebur,0.785,0.76,107,34,18
+Foxtail,0.851,0.82,91,27,21
+Redroot_Pigweed,0.744,0.83,126,32,12
+Giant_Ragweed,0.41,0.45,108,31,11
