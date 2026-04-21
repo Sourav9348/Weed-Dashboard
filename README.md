@@ -8,7 +8,7 @@ reComputer with IMU-assisted frame filtering.
 
 ---
 
-## ✨ What this dashboard shows
+## What this dashboard shows
 
 | Page | Purpose |
 |---|---|
