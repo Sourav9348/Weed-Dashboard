@@ -117,8 +117,6 @@ with right:
     st.markdown(
         """
         - [GitHub repository](https://github.com/Sourav9348/Weed-Dashboard)
-        - [Project proposal (PDF)](#)
-        - [Weekly progress reports](#)
         """
     )
 
