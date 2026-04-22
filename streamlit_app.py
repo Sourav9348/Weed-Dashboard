@@ -72,11 +72,11 @@ with left:
 
     st.subheader("🎯 Five objectives")
     status_df = [
-        ("1. Benchmark YOLO architectures", "Google Colab"),
-        ("2. Optimize selected model via TensorRT", "Edge Device"),
-        ("3. Real-time weed detection on Jetson", "Camera Sensor"),
-        ("4. IMU-based frame stability filtering", "IMU Sensor"),
-        ("5. Interactive visualization dashboard", "Application"),
+        ("1. Benchmark YOLO architectures", "Google Colab", "✅ Complete", 100),
+        ("2. Optimize selected model via TensorRT", "Edge Device", "✅ Complete", 100),
+        ("3. Real-time weed detection on Jetson", "Camera Sensor", "✅ Complete", 100),
+        ("4. IMU-based frame stability filtering", "IMU Sensor", "🟡 In Progress", 85),
+        ("5. Interactive visualization dashboard", "Application", "🟢 This app", 90),
     ]
     import pandas as pd
     status = pd.DataFrame(status_df, columns=["Objective", "Requirement", "Status", "Progress %"])
