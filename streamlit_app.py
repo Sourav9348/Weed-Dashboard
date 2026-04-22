@@ -116,7 +116,7 @@ with right:
     st.subheader("🔗 Quick links")
     st.markdown(
         """
-        - [GitHub repository](https://github.com/yourusername/weed-dashboard)
+        - [GitHub repository](https://github.com/Sourav9348/Weed-Dashboard)
         - [Project proposal (PDF)](#)
         - [Weekly progress reports](#)
         """
