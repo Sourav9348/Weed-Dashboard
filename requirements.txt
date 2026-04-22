@@ -5,4 +5,5 @@ plotly>=5.18
 statsmodels
 ultralytics>=8.1
 opencv-python-headless
+opencv-python
 Pillow>=10.0
