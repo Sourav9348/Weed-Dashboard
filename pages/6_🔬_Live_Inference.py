@@ -3,7 +3,7 @@ Run YOLOv8n on user-uploaded images, videos, or browser webcam snapshots.
 Falls back to base YOLOv8n (COCO) if custom weights are not provided.
 """
 import os
-   os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
+os.environ["OPENCV_IO_ENABLE_OPENEXR"] = "0"
 import io
 import sys
 import tempfile
