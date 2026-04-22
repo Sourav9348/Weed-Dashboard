@@ -70,13 +70,13 @@ with left:
         """
     )
 
-    st.subheader("🎯 Five objectives — current status")
+    st.subheader("🎯 Five objectives")
     status_df = [
-        ("1. Benchmark YOLO architectures", "Google Colab", "✅ Complete", 100),
-        ("2. Optimize selected model via TensorRT", "Edge Device", "✅ Complete", 100),
-        ("3. Real-time weed detection on Jetson", "Camera Sensor", "🟡 In Progress", 75),
-        ("4. IMU-based frame stability filtering", "IMU Sensor", "⏳ Not Started", 0),
-        ("5. Interactive visualization dashboard", "Application", "🟢 This app", 85),
+        ("1. Benchmark YOLO architectures", "Google Colab"),
+        ("2. Optimize selected model via TensorRT", "Edge Device"),
+        ("3. Real-time weed detection on Jetson", "Camera Sensor"),
+        ("4. IMU-based frame stability filtering", "IMU Sensor"),
+        ("5. Interactive visualization dashboard", "Application"),
     ]
     import pandas as pd
     status = pd.DataFrame(status_df, columns=["Objective", "Requirement", "Status", "Progress %"])
