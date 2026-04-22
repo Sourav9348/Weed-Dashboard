@@ -1,10 +1,11 @@
-streamlit>=1.30
-pandas>=2.0
-numpy>=1.24
-plotly>=5.18
+plotly
 statsmodels
-
-# Live Inference page (page 6)
-ultralytics>=8.1,<8.4
-opencv-python-headless==4.5.3.56
-Pillow>=10.0
+opencv-python-headless
+streamlit
+ultralytics
+pandas
+numpy
+matplotlib
+torch
+torchvision
+Pillow
