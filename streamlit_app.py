@@ -21,7 +21,7 @@ st.set_page_config(
 page_header(
     "Edge-Based Weed Detection Dashboard",
     "Real-time YOLOv8n inference on NVIDIA Jetson with IMU-assisted frame filtering",
-    emoji="🌿",
+    emoji="",
 )
 
 # --- Headline KPI row ---
