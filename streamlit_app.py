@@ -119,6 +119,7 @@ with right:
         - [5 minute Video](https://drive.google.com/file/d/1t4ci1wNLNoZvUAtVPb9GIZoFnPJoGkKB/view?usp=sharing)
         - [GitHub repository](https://github.com/Sourav9348/Weed-Dashboard)
         - [Final Paper](https://drive.google.com/file/d/1yyWEoY4ObkxeXyrOweq10qa111BHVOwq/view?usp=sharing)
+        - [Final Presentation](https://docs.google.com/presentation/d/1RulhPfFQ12CZDahc708CDt7tsfxCBVuD/edit?usp=drive_link&ouid=118434991102656133359&rtpof=true&sd=true)
         """
     )
 
